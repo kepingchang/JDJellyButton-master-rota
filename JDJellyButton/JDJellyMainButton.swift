@@ -331,17 +331,17 @@ extension JDJellyMainButton
         expandignMove = false
     }
     
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
-    {
-        /*
-         if(Expanding)
-         {
-         return
-         }
-         */
-        let touch = touches.first!
-        delegate?.MainButtonHasBeenTap(touch: touch)
-    }
+//    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
+//    {
+//        /*
+//         if(Expanding)
+//         {
+//         return
+//         }
+//         */
+//        let touch = touches.first!
+//        delegate?.MainButtonHasBeenTap(touch: touch)
+//    }
     
 }
 

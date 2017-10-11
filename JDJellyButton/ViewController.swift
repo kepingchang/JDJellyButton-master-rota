@@ -65,11 +65,11 @@ extension ViewController:JDJellyButtonDataSource
 {
     func groupcount()->Int
     {
-    return 3
+    return 1
     }
     func imagesource(forgroup groupindex:Int) -> [UIImage]
     {
-    return imagearr[groupindex]
+    return [UIImage(named: "badoo")!,UIImage(named: "behance")!,UIImage(named: "deviantart")!]
     }
 }
 
